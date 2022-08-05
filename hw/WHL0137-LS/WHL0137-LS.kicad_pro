@@ -430,11 +430,11 @@
     ],
     [
       "4c7bf0d5-0a8f-4363-bb8c-6fd588e82ab4",
-      "inner_LED_ring"
+      "outer_LED_ring"
     ],
     [
       "0e6ea132-f02a-4dd7-9fe9-2ba729d4f912",
-      "outer_LED_ring"
+      "inner_LED_ring"
     ]
   ],
   "text_variables": {}
