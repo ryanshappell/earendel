@@ -103,17 +103,17 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_clearance": 0.127,
+        "min_copper_edge_clearance": 0.19999999999999998,
+        "min_hole_clearance": 0.32999999999999996,
+        "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.19999999999999998,
-        "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.39999999999999997,
+        "min_track_width": 0.127,
+        "min_via_annular_width": 0.19999999999999998,
+        "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
@@ -332,7 +332,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -429,12 +429,12 @@
       ""
     ],
     [
-      "4c7bf0d5-0a8f-4363-bb8c-6fd588e82ab4",
-      "outer_LED_ring"
+      "8b98f270-a8d0-4731-a1df-c03e894b43cf",
+      "led_driver_1"
     ],
     [
-      "0e6ea132-f02a-4dd7-9fe9-2ba729d4f912",
-      "inner_LED_ring"
+      "4d08479c-8dfc-4a83-9f9b-b1e92d9250ea",
+      "led_driver_2"
     ]
   ],
   "text_variables": {}
