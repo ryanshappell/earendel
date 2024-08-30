@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9f298bf9-d1b7-4300-ae61-070881d679f0")
+	(paper "A4")
+	(title_block
+		(title "Earendel Ring Light")
+		(date "2024-08-30")
+		(rev "Rev001")
+		(company "Aaron & Ryan Shappell")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
