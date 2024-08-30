@@ -11,6 +11,158 @@
 		(company "Aaron & Ryan Shappell")
 	)
 	(lib_symbols)
+	(sheet
+		(at 132.08 109.22)
+		(size 26.67 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "74715d57-0c58-4672-a258-2337dca9dddd")
+		(property "Sheetname" "Outer Ring"
+			(at 132.08 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "outer_ring.kicad_sch"
+			(at 132.08 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "earendel"
+				(path "/9f298bf9-d1b7-4300-ae61-070881d679f0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 58.42)
+		(size 20.32 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7e4bf15d-4b41-4acc-9c62-004a713d2c38")
+		(property "Sheetname" "MCU"
+			(at 81.28 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 81.28 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "earendel"
+				(path "/9f298bf9-d1b7-4300-ae61-070881d679f0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 110.49)
+		(size 25.4 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b806f5db-4e1b-45b4-950f-da653ac24cba")
+		(property "Sheetname" "Inner Ring"
+			(at 78.74 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "inner_ring.kicad_sch"
+			(at 78.74 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "earendel"
+				(path "/9f298bf9-d1b7-4300-ae61-070881d679f0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 58.42)
+		(size 25.4 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c4d8be70-2851-439e-879c-727fa1c9d9d5")
+		(property "Sheetname" "Power"
+			(at 129.54 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 129.54 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "earendel"
+				(path "/9f298bf9-d1b7-4300-ae61-070881d679f0"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

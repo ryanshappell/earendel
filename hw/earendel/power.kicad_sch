@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "722ca49c-f59f-417e-98a7-ee4716fbd2ab")
+	(paper "A4")
+	(title_block
+		(date "2024-08-30")
+		(rev "Rev001")
+		(company "Aaron & Ryan Shappell")
+	)
+	(lib_symbols)
+)
