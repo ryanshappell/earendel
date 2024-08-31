@@ -4070,7 +4070,7 @@
 	)
 	(text_box "AD = 11\n\nSlave Address: 0b01111110"
 		(exclude_from_sim no)
-		(at 50.8 68.58 0)
+		(at 50.8 69.85 0)
 		(size 20.32 13.97)
 		(stroke
 			(width 0)

@@ -12,7 +12,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 132.08 109.22)
+		(at 180.34 90.17)
 		(size 26.67 13.97)
 		(fields_autoplaced yes)
 		(stroke
@@ -24,7 +24,7 @@
 		)
 		(uuid "74715d57-0c58-4672-a258-2337dca9dddd")
 		(property "Sheetname" "Outer Ring"
-			(at 132.08 108.5084 0)
+			(at 180.34 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33,13 +33,43 @@
 			)
 		)
 		(property "Sheetfile" "outer_ring.kicad_sch"
-			(at 132.08 123.7746 0)
+			(at 180.34 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "OUTER_SDA" bidirectional
+			(at 180.34 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "60a04035-78ad-4668-bb0f-a410a10f7d36")
+		)
+		(pin "OUTER_SCL" input
+			(at 180.34 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a129706a-7b72-46fc-b99f-bbd1049159e9")
+		)
+		(pin "OUTER_SDB" input
+			(at 180.34 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "85abab63-5c6d-46ae-9d5c-439213f3a5d8")
 		)
 		(instances
 			(project "earendel"
@@ -50,8 +80,8 @@
 		)
 	)
 	(sheet
-		(at 81.28 58.42)
-		(size 20.32 16.51)
+		(at 123.19 58.42)
+		(size 29.21 67.31)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -62,7 +92,7 @@
 		)
 		(uuid "7e4bf15d-4b41-4acc-9c62-004a713d2c38")
 		(property "Sheetname" "MCU"
-			(at 81.28 57.7084 0)
+			(at 123.19 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71,7 +101,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 81.28 75.5146 0)
+			(at 123.19 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88,7 +118,7 @@
 		)
 	)
 	(sheet
-		(at 78.74 110.49)
+		(at 180.34 64.77)
 		(size 25.4 13.97)
 		(fields_autoplaced yes)
 		(stroke
@@ -100,7 +130,7 @@
 		)
 		(uuid "b806f5db-4e1b-45b4-950f-da653ac24cba")
 		(property "Sheetname" "Inner Ring"
-			(at 78.74 109.7784 0)
+			(at 180.34 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109,13 +139,43 @@
 			)
 		)
 		(property "Sheetfile" "inner_ring.kicad_sch"
-			(at 78.74 125.0446 0)
+			(at 180.34 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "INNER_SCL" input
+			(at 180.34 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8861646a-3b08-43ee-98f9-6f4681a30db2")
+		)
+		(pin "INNER_SDB" input
+			(at 180.34 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c9ad2b9d-43b4-40f0-a24b-de30cbeb5871")
+		)
+		(pin "INNER_SDA" bidirectional
+			(at 180.34 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eba6a64e-1672-4c6c-99c9-bf892843b8f1")
 		)
 		(instances
 			(project "earendel"
@@ -126,7 +186,7 @@
 		)
 	)
 	(sheet
-		(at 129.54 58.42)
+		(at 59.69 78.74)
 		(size 25.4 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -138,7 +198,7 @@
 		)
 		(uuid "c4d8be70-2851-439e-879c-727fa1c9d9d5")
 		(property "Sheetname" "Power"
-			(at 129.54 57.7084 0)
+			(at 59.69 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -147,7 +207,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 129.54 74.2446 0)
+			(at 59.69 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
